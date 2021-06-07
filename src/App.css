@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+/*BAKGROUND-COLOR*/
+.fondo-color{
+  /*background-color: rgb(208, 208, 208);*/
+  background: -webkit-radial-gradient(#560e86, #0a0011);
+}
+/*CARD*/
+.tamaño-card{
+  width: 28rem;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*HOME*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.neon {
+  font-size: 50px;
+  letter-spacing:-2px;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 25px #ff00de;
+  -webkit-text-fill-color: #F4ECFF;
+  -webkit-text-stroke-color:#C546F7;
+  -webkit-text-stroke-width:0.2px;
+  -moz-text-fill-color: #F4ECFF;
+  -moz-text-stroke-color:#C546F7;
+  -moz-text-stroke-width:0.2px;
   }
+
+.neonDiv{
+  -moz-box-shadow: 0px 0px 30px #DF0101; 
+  -webkit-box-shadow: 0px 0px 30px #FF0000; 
+  box-shadow: 0px 0px 30px #DF0101;
+  
+  padding: 10px;
+  border: 1px solid #FF0000;
+
+  margin: 20px;
+}
+/*BANNER-IMG*/
+#banner-img{
+  padding: 1rem 0;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/23/17/33/curtain-1275200__340.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.texto-title{
+  text-shadow: 
+    3px 3px 1px red,
+    5px 5px 2px yellow,
+    8px 8px 3px blue;
+    ;
+}
+.texto-sub{
+  text-shadow: 
+    7px 4px 5px blue;
+    ;
+}
+.decoration{
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*FONT GOOGLE*/
+.font-peliculas{
+  font-family: 'DM Sans', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/*ICON*/
+ .buscador{
+  font-size: 2rem; color: rgb(255, 255, 255);
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*PRELOADING*/
+
+.cargaPage{
+  position: absolute;
+  top: 50%;
+  width: 80px;
+  height: 80px;
 }
